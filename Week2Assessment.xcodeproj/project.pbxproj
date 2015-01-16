@@ -14,6 +14,13 @@
 		839E7F771A6981C800C1F1D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839E7F761A6981C800C1F1D7 /* Images.xcassets */; };
 		839E7F7A1A6981C800C1F1D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839E7F781A6981C800C1F1D7 /* LaunchScreen.xib */; };
 		839E7F861A6981C800C1F1D7 /* Week2AssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E7F851A6981C800C1F1D7 /* Week2AssessmentTests.m */; };
+		839E7F911A69832200C1F1D7 /* Cities.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E7F901A69832200C1F1D7 /* Cities.m */; };
+		839E7F991A69877A00C1F1D7 /* SanFranciscoCA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 839E7F951A69877A00C1F1D7 /* SanFranciscoCA.jpg */; };
+		839E7F9A1A69877A00C1F1D7 /* GreenvilleSC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 839E7F961A69877A00C1F1D7 /* GreenvilleSC.jpg */; };
+		839E7F9B1A69877A00C1F1D7 /* LittleRockAR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 839E7F971A69877A00C1F1D7 /* LittleRockAR.jpg */; };
+		839E7F9C1A69877A00C1F1D7 /* CharlestonSC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 839E7F981A69877A00C1F1D7 /* CharlestonSC.jpg */; };
+		839E7F9F1A698EC500C1F1D7 /* CityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E7F9E1A698EC500C1F1D7 /* CityDetailViewController.m */; };
+		839E7FA21A69981700C1F1D7 /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E7FA11A69981700C1F1D7 /* WebPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,16 @@
 		839E7F7F1A6981C800C1F1D7 /* Week2AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839E7F841A6981C800C1F1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839E7F851A6981C800C1F1D7 /* Week2AssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week2AssessmentTests.m; sourceTree = "<group>"; };
+		839E7F8F1A69832200C1F1D7 /* Cities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cities.h; sourceTree = "<group>"; };
+		839E7F901A69832200C1F1D7 /* Cities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cities.m; sourceTree = "<group>"; };
+		839E7F951A69877A00C1F1D7 /* SanFranciscoCA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanFranciscoCA.jpg; sourceTree = "<group>"; };
+		839E7F961A69877A00C1F1D7 /* GreenvilleSC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreenvilleSC.jpg; sourceTree = "<group>"; };
+		839E7F971A69877A00C1F1D7 /* LittleRockAR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LittleRockAR.jpg; sourceTree = "<group>"; };
+		839E7F981A69877A00C1F1D7 /* CharlestonSC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CharlestonSC.jpg; sourceTree = "<group>"; };
+		839E7F9D1A698EC500C1F1D7 /* CityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDetailViewController.h; sourceTree = "<group>"; };
+		839E7F9E1A698EC500C1F1D7 /* CityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDetailViewController.m; sourceTree = "<group>"; };
+		839E7FA01A69981700C1F1D7 /* WebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebPageViewController.h; path = ../WebPageViewController.h; sourceTree = "<group>"; };
+		839E7FA11A69981700C1F1D7 /* WebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebPageViewController.m; path = ../WebPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +98,17 @@
 		839E7F681A6981C800C1F1D7 /* Week2Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				839E7FA01A69981700C1F1D7 /* WebPageViewController.h */,
+				839E7FA11A69981700C1F1D7 /* WebPageViewController.m */,
 				839E7F6D1A6981C800C1F1D7 /* AppDelegate.h */,
 				839E7F6E1A6981C800C1F1D7 /* AppDelegate.m */,
 				839E7F701A6981C800C1F1D7 /* ViewController.h */,
 				839E7F711A6981C800C1F1D7 /* ViewController.m */,
+				839E7F9D1A698EC500C1F1D7 /* CityDetailViewController.h */,
+				839E7F9E1A698EC500C1F1D7 /* CityDetailViewController.m */,
 				839E7F731A6981C800C1F1D7 /* Main.storyboard */,
+				839E7F8F1A69832200C1F1D7 /* Cities.h */,
+				839E7F901A69832200C1F1D7 /* Cities.m */,
 				839E7F761A6981C800C1F1D7 /* Images.xcassets */,
 				839E7F781A6981C800C1F1D7 /* LaunchScreen.xib */,
 				839E7F691A6981C800C1F1D7 /* Supporting Files */,
@@ -97,6 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				839E7F6A1A6981C800C1F1D7 /* Info.plist */,
+				839E7F951A69877A00C1F1D7 /* SanFranciscoCA.jpg */,
+				839E7F961A69877A00C1F1D7 /* GreenvilleSC.jpg */,
+				839E7F971A69877A00C1F1D7 /* LittleRockAR.jpg */,
+				839E7F981A69877A00C1F1D7 /* CharlestonSC.jpg */,
 				839E7F6B1A6981C800C1F1D7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -201,7 +228,11 @@
 			files = (
 				839E7F751A6981C800C1F1D7 /* Main.storyboard in Resources */,
 				839E7F7A1A6981C800C1F1D7 /* LaunchScreen.xib in Resources */,
+				839E7F9C1A69877A00C1F1D7 /* CharlestonSC.jpg in Resources */,
+				839E7F9A1A69877A00C1F1D7 /* GreenvilleSC.jpg in Resources */,
+				839E7F9B1A69877A00C1F1D7 /* LittleRockAR.jpg in Resources */,
 				839E7F771A6981C800C1F1D7 /* Images.xcassets in Resources */,
+				839E7F991A69877A00C1F1D7 /* SanFranciscoCA.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839E7F911A69832200C1F1D7 /* Cities.m in Sources */,
+				839E7F9F1A698EC500C1F1D7 /* CityDetailViewController.m in Sources */,
 				839E7F721A6981C800C1F1D7 /* ViewController.m in Sources */,
 				839E7F6F1A6981C800C1F1D7 /* AppDelegate.m in Sources */,
+				839E7FA21A69981700C1F1D7 /* WebPageViewController.m in Sources */,
 				839E7F6C1A6981C800C1F1D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
